@@ -6,7 +6,7 @@ module.exports = (_, argv) => ({
     publicPath:
       argv.mode === "development"
         ? "http://localhost:8081/"
-        : "https://prod-test-consumer.vercel.app/",
+        : "https://prod-test-consumer.netlify.app/",
   },
 
   resolve: {
